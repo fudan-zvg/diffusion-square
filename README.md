@@ -1,6 +1,6 @@
 # Diffusion²: Dynamic 3D Content Generation via Score Composition of Orthogonal Diffusion Models
-[Paper](https://arxiv.org/abs/)
-> [**Diffusion²: Dynamic 3D Content Generation via Score Composition of Orthogonal Diffusion Models**](https://arxiv.org/abs/),            
+[Paper](https://arxiv.org/abs/2404.02148)
+> [**Diffusion²: Dynamic 3D Content Generation via Score Composition of Orthogonal Diffusion Models**](https://arxiv.org/abs/2404.02148),            
 > Zeyu Yang*, Zijie Pan*, [Chun Gu](https://sulvxiangxin.github.io), [Li Zhang](https://lzrobots.github.io)  
 > **Fudan University**  
 > **Arxiv preprint**
@@ -43,7 +43,7 @@
 @article{yang2024diffusion,
   title={Diffusion²: Dynamic 3D Content Generation via Score Composition of Orthogonal Diffusion Models},
   author={Yang, Zeyu and Pan, Zijie and Gu, Chun and Zhang, Li},
-  journal={arXiv preprint},
+  journal={arXiv preprint 2404.02148},
   year={2024}
 }
 ```
