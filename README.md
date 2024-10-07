@@ -80,9 +80,11 @@ Once the dense multi-view multi-frame images are generated, many off-the-shelf 4
 
 ## Ablations
 
+https://github.com/user-attachments/assets/d2133da6-2704-458b-87f2-e117e3f15c0b
 
 ## Results
 
+https://github.com/user-attachments/assets/15b15931-73ec-4a9d-8d6a-d190313ca31d
 
 ## Reference
 ```bibtex
