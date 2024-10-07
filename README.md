@@ -1,13 +1,19 @@
-# Diffusion²: Dynamic 3D Content Generation via Score Composition of Orthogonal Diffusion Models
+# Diffusion²: Dynamic 3D Content Generation via Score Composition of Video and Multi-view Diffusion Models
 [Paper](https://arxiv.org/abs/2404.02148)
-> [**Diffusion²: Dynamic 3D Content Generation via Score Composition of Orthogonal Diffusion Models**](https://arxiv.org/abs/2404.02148),            
+> [**Diffusion²: Dynamic 3D Content Generation via Score Composition of Video and Multi-view Diffusion Models**](https://arxiv.org/abs/2404.02148),            
 > Zeyu Yang*, Zijie Pan*, [Chun Gu](https://sulvxiangxin.github.io), [Li Zhang](https://lzrobots.github.io)  
 > **Fudan University**  
 > **Arxiv preprint**
 
-**This repository is the official implementation of "Diffusion²: Dynamic 3D Content Generation via Score Composition of Orthogonal Diffusion Models".** In this paper, we propose to achieve 4D generation from directly sampling the dense multi-view multi-frame observation of dynamic content by composing the estimated score of pretrained video and multi-view diffusion models that have learned strong prior of dynamic and geometry. 
+**This repository is the official implementation of "Diffusion²: Dynamic 3D Content Generation via Score Composition of Video and Multi-view Diffusion Models".** In this paper, we propose to achieve 4D generation from directly sampling the dense multi-view multi-frame observation of dynamic content by composing the estimated score of pretrained video and multi-view diffusion models that have learned strong prior of dynamic and geometry. 
 
-## 🛠️ Pipeline
+## News
+
+- **(2024/10/2)** We update the [paper](https://arxiv.org/abs/2404.02148) of Diffusion², enhancing its readability and highlighting key implementation details. Welcome to check!
+- **(2024/8/6)** The initial version of code is released, including the key part of the proposed framework, i.e., joint denoising for sampling consistent image matrix, and VRS to ensure the generation of seamless results.
+- **(2024/4/2)** The paper of Diffusion² is avaliable at [ArXiv](https://arxiv.org/abs/2404.02148).
+
+## Pipeline
 <div align="center">
   <img src="assets/pipeline.png"/>
 </div><br/>
@@ -70,53 +76,25 @@ PYTHONPATH="." MASTER_ADDR=localhost MASTER_PORT=12345 python main.py \
 
 **STAGE-2: 4D reconstruction from synthesized videos**
 
-Once the dense multi-view multi-frame images are generated, many off-the-shelf 4D reconstruction pipelines can be employed to obtain continuous 4D assets. We are working on integrating a simplified version of [4DGS](https://github.com/fudan-zvg/4d-gaussian-splatting) into this repo.
+Once the dense multi-view multi-frame images are generated, many off-the-shelf 4D reconstruction pipelines can be employed to obtain continuous 4D assets. We are working on integrating a simplified version of the adopted reconstruction method into this repo.
 
-## 📊 Results
-
-### 🎞️ Video Results
-
-https://github.com/user-attachments/assets/0daf1116-e5b7-4c74-8558-dc36a0871553
-
-### 🖼️ Image-to-4D Generation
-
-<div align="center">
-  <img src="assets/image-to-4D.png"/>
-</div><br/>
-
-### 🖼️ 4D Generation from Single-view Video 
-
-<div align="center">
-  <img src="assets/video-to-4D.png"/>
-</div><br/>
-
-### 🖼️ Animating Static 3D assets
-
-<div align="center">
-  <img src="assets/static-to-4D.png"/>
-</div><br/>
-
-### 🖼️ Ablation
+## Ablations
 
 
-https://github.com/user-attachments/assets/cb52f193-d806-4290-99cb-60c70dc62608
+## Results
 
 
-<div align="center">
-  <img src="assets/ablation.png"/>
-</div><br/>
-
-## 📜 Reference
+## Reference
 ```bibtex
 @article{yang2024diffusion,
-  title={Diffusion²: Dynamic 3D Content Generation via Score Composition of Orthogonal Diffusion Models},
+  title={Diffusion²: Dynamic 3D Content Generation via Score Composition of Video and Multi-view Diffusion Models},
   author={Yang, Zeyu and Pan, Zijie and Gu, Chun and Zhang, Li},
   journal={arXiv preprint 2404.02148},
   year={2024}
 }
 ```
 
-## 😄 Acknowledgements
+## Acknowledgements
 
 This repo is built on the https://github.com/Stability-AI/generative-models.
 
