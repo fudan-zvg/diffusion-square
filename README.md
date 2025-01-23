@@ -88,11 +88,11 @@ https://github.com/user-attachments/assets/15b15931-73ec-4a9d-8d6a-d190313ca31d
 
 ## Reference
 ```bibtex
-@article{yang2024diffusion,
+@inproceedings{yang2024diffusion,
   title={Diffusion²: Dynamic 3D Content Generation via Score Composition of Video and Multi-view Diffusion Models},
   author={Yang, Zeyu and Pan, Zijie and Gu, Chun and Zhang, Li},
-  journal={arXiv preprint 2404.02148},
-  year={2024}
+  booktitle={International Conference on Learning Representations (ICLR)},
+  year={2025}
 }
 ```
 
