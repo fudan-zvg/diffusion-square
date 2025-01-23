@@ -3,7 +3,7 @@
 > [**Diffusion²: Dynamic 3D Content Generation via Score Composition of Video and Multi-view Diffusion Models**](https://arxiv.org/abs/2404.02148),            
 > Zeyu Yang*, Zijie Pan*, [Chun Gu](https://sulvxiangxin.github.io), [Li Zhang](https://lzrobots.github.io)  
 > **Fudan University**  
-> **Arxiv preprint**
+> **ICLR 2025**
 
 **This repository is the official implementation of "Diffusion²: Dynamic 3D Content Generation via Score Composition of Video and Multi-view Diffusion Models".** In this paper, we propose to achieve 4D generation from directly sampling the dense multi-view multi-frame observation of dynamic content by composing the estimated score of pretrained video and multi-view diffusion models that have learned strong prior of dynamic and geometry. 
 
